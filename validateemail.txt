@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function is_emailcheck(str) {
+    regexp = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+    if (regexp.test(str)) {
+      console.log("OK")
+    } else {
+      console.log("? OK")
+    }
+  }
+  is_emailcheck("nguyenxuanthuan1802@gmail.com");
+  is_emailcheck("shock88h@gmail.com");
+</script>
+
+</body>
+</html>
